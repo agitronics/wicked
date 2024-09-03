@@ -1,5 +1,5 @@
 Flask==2.0.1
-Flask-CORS==3.0.10
+Flask-CORS==5.0.0
 Flask-SocketIO==5.1.1
 celery==5.1.2
 redis==3.5.3
