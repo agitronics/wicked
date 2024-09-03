@@ -21,7 +21,7 @@ This project is a comprehensive network scanning and vulnerability assessment to
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/advanced-network-tools.git
+   git clone https://github.com/agitronics/wicked.git
    cd advanced-network-tools
    ```
 
