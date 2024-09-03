@@ -1,0 +1,77 @@
+# Advanced Network Tools Interface - User Manual
+
+## Table of Contents
+
+1. Getting Started
+2. Main Interface
+3. Advanced Integrated Scan
+4. Reports Manager
+5. Troubleshooting
+
+## 1. Getting Started
+
+After launching the application, you'll be presented with the main interface. The tool is divided into two main sections: Advanced Integrated Scan and Reports Manager.
+
+## 2. Main Interface
+
+The main interface consists of a navigation bar at the top, allowing you to switch between the Advanced Integrated Scan and Reports Manager.
+
+## 3. Advanced Integrated Scan
+
+### 3.1 Setting up a Scan
+
+1. Enter the target URL, IP, or domain in the main input field.
+2. If you have multiple targets, enter additional IPs in the textarea below (one per line).
+3. Configure scan options by checking/unchecking the relevant checkboxes.
+
+### 3.2 Scan Options
+
+- Passive Discovery: Perform passive reconnaissance techniques.
+- Active Discovery: Actively probe the target for information.
+- Subdomain Enumeration: Attempt to discover subdomains.
+- Related Company Discovery: Look for information about related companies.
+- Cloud Asset Discovery: Attempt to find cloud-based assets.
+- Deep Scan: Perform a more thorough, time-consuming scan.
+- Fuzzing: Perform fuzzing techniques to find vulnerabilities.
+- Exploit Attempt: Attempt to exploit found vulnerabilities (use with caution).
+
+### 3.3 Running a Scan
+
+Click the "Start Advanced Integrated Scan" button to begin the scan. You'll see real-time progress updates as the scan proceeds.
+
+### 3.4 Scan Results
+
+Once the scan is complete, you'll see various charts and tables displaying the results, including:
+
+- Vulnerability summary
+- Target distribution
+- Open ports and services
+- Discovered subdomains and related assets
+
+## 4. Reports Manager
+
+### 4.1 Viewing Reports
+
+The Reports Manager displays a list of all saved reports. Click on a report name to view its details.
+
+### 4.2 Report Details
+
+Report details include:
+
+- Scan date and time
+- Targets scanned
+- Summary of findings
+- Detailed list of vulnerabilities
+- Charts visualizing the scan results
+
+### 4.3 Downloading Reports
+
+To download a report, click the "Download" button next to the report name. The report will be downloaded as a JSON file.
+
+## 5. Troubleshooting
+
+- If the scan doesn't start, ensure that the backend server and Celery worker are running.
+- If real-time updates are not working, check your WebSocket connection.
+- For any persistent issues, check the browser console and backend logs for error messages.
+
+Remember to use this tool responsibly and only on networks and systems you have permission to test.
